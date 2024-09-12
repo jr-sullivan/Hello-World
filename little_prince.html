@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Prince</title>
+    <style>
+        /* Embedded CSS */
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #fffcf4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .prince-image {
+            max-width: 500px;
+            display: block;
+            margin: 0 auto 20px; /* Centers the image and adds margin below it */
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main p {
+            font-size: 1.1em;
+            font-family: "Times New Roman", Times, serif;
+            color: #000;
+            text-align: justify;
+            max-width: 400px; /* Limits the width of the paragraph */
+            line-height: 1.6;
+            margin: 0 20px; /* Ensures paragraph has space on the sides */
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1em;
+        }
+
+        .highlighted-orange {
+            background-color: orange;
+        }
+
+        .red-text {
+            color: red;
+            font-weight: bold;
+        }
+
+        .underlined {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+  
+    <main>
+        <section>
+            <!-- Replace the src path with the correct image location -->
+            <img src="img/littleprince.jpg" alt="The Little Prince" class="prince-image">
+            <p>
+                "As the little prince dropped off to sleep, I took him in my arms and set out walking once more. 
+                <span class="underlined">I felt deeply moved, and stirred.</span> 
+                <span class="underlined">It seemed to me that I was carrying a very fragile treasure.</span> 
+                <span class="highlighted-orange">It seemed to me, even, that there was nothing more fragile on all Earth.</span>
+                In the moonlight I looked at his pale forehead, his closed eyes, his locks of hair that trembled in the wind, and I said to myself: 
+                <span class="red-text">"What I see here is nothing but a shell. What is most important is invisible..."</span> 
+                As his lips opened slightly with the suspicion of a half-smile, I said to myself, again: 
+                <span class="red-text">"What moves me so deeply, about this little prince who is sleeping here, is his loyalty to a flower--the image of a rose that shines through his whole being like the flame of a lamp, even when he is asleep . . ."</span> 
+                And I felt him to be more fragile still. 
+                <span class="underlined">I felt the need of protecting him, as if he himself were a flame that might be extinguished by a little puff of wind . . ."</span>
+            </p>
+        </section>
+
+        <a href="index.html" class="back-link">Go back to Home</a>
+    </main>
+</body>
+</html>
